@@ -1,0 +1,112 @@
+/*.example {
+    background-color: navy;
+    width: 400px;
+    padding: 20px;
+    border: 6px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box
+}*/
+
+/*.element1 {
+    display: block;
+    background-color: blue;
+    color: black;
+    width: 50%;
+    height: 100px;
+}
+
+.element2 {
+    display: block;
+    background-color: navy;
+    color: black;
+    width: 50%;
+    height: 100px;
+}
+
+.element3 {
+    display: block;
+    background-color: aquamarine;
+    color: black;
+    width: 50%;
+    height: 100px;
+}
+
+.element4 {
+    display: block;
+    background-color: aqua;
+    color: black;
+    width: 50%;
+    height: 50px;
+}*/
+
+/*.example {
+    background-color: navy;
+    width: 400px;
+    padding: 20px;
+    border: 6px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box
+}*/
+
+/*.element1 {
+    display: inline;
+    background-color: blue;
+    color: black;
+}
+
+.element2 {
+    display: inline;
+    background-color: navy;
+    color: black;
+}
+
+.element3 {
+    display: inline;
+    background-color: aquamarine;
+    color: black;
+}
+
+.element4 {
+    display: inline;
+    background-color: aqua;
+    color: black;
+}*/
+
+/*.example {
+    background-color: navy;
+    width: 400px;
+    padding: 20px;
+    border: 6px solid gray;
+    border-radius: 8px;
+    box-sizing: border-box
+}*/
+
+.element1 {
+    display: inline-block;
+    background-color: blue;
+    color: black;
+    width: 140px;
+}
+
+.element2 {
+    display: inline-block;
+    background-color: navy;
+    color: black;
+    height: 100px;
+}
+
+.element3 {
+    display: none;
+    background-color: aquamarine;
+    color: black;
+    width: 180px;
+    height: 50px;
+}
+
+.element4 {
+    display: inline-block;
+    background-color: aqua;
+    color: black;
+    width: 50%;
+    height: 10%;
+}
