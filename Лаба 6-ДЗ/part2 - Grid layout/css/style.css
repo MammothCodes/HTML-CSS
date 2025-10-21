@@ -1,0 +1,142 @@
+body {
+    margin: 0;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 23%; /* ширина блока */
+    height: 300px; /* высота блока */
+    background-color: darkseagreen; /* цвет фона */
+    color: white; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 200px; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col:first-child{
+    background-color: aquamarine; /* цвет фона */
+}
+
+.col:last-child{
+    background-color: blue; /* цвет фона */
+}
+
+.col:nth-child(3){
+    background-color: orangered; /* цвет фона */
+}
+
+
+.col2 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 23%; /* ширина блока */
+    height: 300px; /* высота блока */
+    background-color: pink; /* цвет фона */
+    color: white; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 200px; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col2:not(:nth-child(2n)){
+    background-color: lightyellow; /* цвет фона */
+}
+
+
+.col3 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 100%; /* ширина блока */
+    height: 30px; /* высота блока */
+    background-color: beige; /* цвет фона */
+    color: black; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 15px; /* центрирование текста по вертикали */
+    margin: 0%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.row2 {
+    font-size: 16;
+}
+
+.col4 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 30%; /* ширина блока */
+    height: 30px; /* высота блока */
+    background-color: beige; /* цвет фона */
+    color: black; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 15px; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 10px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col5 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 30%; /* ширина блока */
+    height: 90px; /* высота блока */
+    background-color: beige; /* цвет фона */
+    color: black; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 30px; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col5:not(:nth-child(2n)){
+    background-color: greenyellow; /* цвет фона */
+}
+
+.col5 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 30%; /* ширина блока */
+    height: 90px; /* высота блока */
+    background-color: beige; /* цвет фона */
+    color: black; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 30px; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col6 {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 30%; /* ширина блока */
+    height: 30%; /* высота блока */
+    background-color: beige; /* цвет фона */
+    color: black; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: center; /* центрирование текста */
+    line-height: 10%; /* центрирование текста по вертикали */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.col6:last-child{
+    background-color: blue; /* цвет фона */
+}
