@@ -1,0 +1,56 @@
+body {
+    min-height: 4000px;
+    margin: 0;
+    padding: 50px;
+}
+
+.header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 30px 10px;
+    background-color: darkseagreen;
+}
+
+.block{
+    display: inline-block;
+    margin: 10px;
+}
+
+.absolute{
+    position: absolute;
+    right: 100px;
+    top: 20px;
+}
+/*.cart-number{
+    position: relative;
+    display: block;
+    width: 10px;
+}*/
+
+main {
+    padding: 30px;
+}
+
+.row {
+    font-size: 0;
+}
+
+.col {
+    display: inline-block; /* устанавливаем блочный элемент в строку */
+    width: 95%; /* ширина блока */
+    background-color: darkseagreen; /* цвет фона */
+    color: white; /* цвет текста */
+    font-size: 16px; /* размер текста */
+    text-align: left; /* центрирование текста */
+    margin: 1%; /* отступ между блоками */
+    border-radius: 15px; /* скругление углов */
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.footer {
+    text-align: center;
+}
+
